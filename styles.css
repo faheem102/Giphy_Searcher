@@ -1,0 +1,39 @@
+.giphy-searcher {
+    text-align: center;
+}
+
+.giphy-heading {
+    color: blueviolet;
+    font-style: italic;
+}
+
+.giphy-display {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+
+
+}
+
+input {
+    display: inline-block;
+    margin: 5px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#giphy-button {
+    height: 2rem;
+    width: 5rem;
+    border-radius: 3px;
+    background-color: #004d99;
+    color: beige;
+    font-size: 1rem;
+
+}
+
+#giphy-display img {
+    margin: 10px auto 10px auto;
+    border: 2px dotted blue;
+    padding: 5px;
+}
