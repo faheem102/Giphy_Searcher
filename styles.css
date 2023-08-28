@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(to right, #FFB6D9, #D67BFF);
+}
 .giphy-searcher {
     text-align: center;
 }
@@ -5,6 +9,9 @@
 .giphy-heading {
     color: blueviolet;
     font-style: italic;
+    font-size: 3rem;
+    text-decoration: underline;
+    
 }
 
 .giphy-display {
@@ -18,16 +25,16 @@
 input {
     display: inline-block;
     margin: 5px;
-    height: 25px;
+    height: 2rem;
     border-radius: 5px;
 }
 
-#giphy-button {
-    height: 2rem;
+button {
+    height: 2.4rem;
     width: 5rem;
     border-radius: 3px;
-    background-color: #004d99;
-    color: beige;
+    background-color: #CAEDFF;
+    color: #793FDF;
     font-size: 1rem;
 
 }
